@@ -29,6 +29,9 @@ Clone the repository:
   pip install fastapi uvicorn
   ```
 ## Run the server
+  Run the instance:
   ```bash
   uvicorn main:app --reload
   ```
+  - Access the book list: http://127.0.0.1:8000
+  - Access the UI (Swagger UI): http://127.0.0.1:8000/docs
